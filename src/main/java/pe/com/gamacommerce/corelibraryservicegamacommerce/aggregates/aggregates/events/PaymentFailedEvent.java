@@ -13,5 +13,4 @@ import java.util.List;
 public class PaymentFailedEvent {
     private Long shopOrderId;
     private List <Product> productList;
-    private Long reservationId;
 }

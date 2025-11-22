@@ -14,5 +14,4 @@ public class PaymentProcessedEvent {
     private Long paymentId;
     private BigDecimal paymentTotalPrice;
     private boolean isProduct;
-    private boolean isService;
 }

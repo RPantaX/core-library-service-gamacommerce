@@ -2,7 +2,6 @@ package pe.com.gamacommerce.corelibraryservicegamacommerce.aggregates.aggregates
 
 import pe.com.gamacommerce.corelibraryservicegamacommerce.aggregates.aggregates.dto.PaymentType;
 import pe.com.gamacommerce.corelibraryservicegamacommerce.aggregates.aggregates.dto.Product;
-import pe.com.gamacommerce.corelibraryservicegamacommerce.aggregates.aggregates.dto.ReservationCore;
 import lombok.*;
 
 import java.math.BigDecimal;
@@ -25,5 +24,4 @@ public class ProcessPaymentCommand {
     private Long userId;
     private PaymentType paymentType;
     private List<Product> productList;
-    private ReservationCore reservationCore;
 }

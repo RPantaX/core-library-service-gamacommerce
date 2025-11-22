@@ -13,5 +13,4 @@ import java.util.List;
 public class ReserveProductCommand {
     private Long shopOrderId;
     private List<RequestProductsEvent> requestProductsEventList;
-    private Long reservationId;
 }

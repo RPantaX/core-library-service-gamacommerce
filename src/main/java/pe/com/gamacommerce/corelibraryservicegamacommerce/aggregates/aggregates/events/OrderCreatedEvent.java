@@ -14,5 +14,4 @@ public class OrderCreatedEvent {
     private Long shopOrderId;
     private Long customerId;
     private List<RequestProductsEvent> requestProductsEventList;
-    private Long reservationId;
 }

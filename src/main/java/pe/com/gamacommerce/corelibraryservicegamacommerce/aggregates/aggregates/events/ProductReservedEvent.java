@@ -13,5 +13,4 @@ import java.util.List;
 public class ProductReservedEvent {
     List<Product> productList;
     private Long shopOrderId;
-    private Long reservationId;
 }

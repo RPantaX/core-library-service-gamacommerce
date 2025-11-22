@@ -10,5 +10,4 @@ import lombok.*;
 public class OrderApprovedEvent {
     private Long shopOrderId;
     private Boolean isProduct;
-    private Boolean isService;
 }
