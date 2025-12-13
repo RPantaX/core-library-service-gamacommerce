@@ -13,5 +13,4 @@ public class ApproveOrderCommand {
     private Long shopOrderId;
     private BigDecimal paymentTotalPrice;
     private Boolean isProduct;
-    private Boolean isService;
 }
